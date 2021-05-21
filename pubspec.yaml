@@ -22,7 +22,7 @@ environment:
 
 dependencies:
   flutter:
-    sdk: flutter
+    sdk: flutter  
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -32,11 +32,17 @@ dependencies:
   shared_preferences:
   http:
   dynamic_theme:
-  pie_chart:
-
+  
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+ 
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -48,8 +54,9 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-  fonts:
-    
+  fonts: 
+  - family: Circular
+  
 
   # To add assets to your application, add an assets section, like this:
   # assets:
